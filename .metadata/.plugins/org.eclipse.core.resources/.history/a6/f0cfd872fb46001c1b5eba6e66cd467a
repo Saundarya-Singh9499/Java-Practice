@@ -1,0 +1,13 @@
+package OperatorsandforLoops;
+
+public class IncreamentDecreament {
+
+	public static void main(String[] args) {
+		
+		int a =40;
+		a++;
+		System.out.println(a++);
+
+	}
+
+}

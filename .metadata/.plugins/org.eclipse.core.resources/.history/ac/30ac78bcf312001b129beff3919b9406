@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class user {
+
+	public static void main(String[] args) {
+		
+	Scanner ss = new Scanner(System.in);
+
+				System.out.println("Product name: ");
+				String product_name = ss.nextLine();
+				System.out.println("Value entered: " + product_name);
+
+				System.out.println("Quantity: ");
+				int quantity = ss.nextInt();
+				System.out.println("Value entered: " + quantity);
+			}
+		
+
+	}
+

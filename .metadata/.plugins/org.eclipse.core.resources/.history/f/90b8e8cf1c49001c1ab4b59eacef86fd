@@ -1,0 +1,23 @@
+package Arrays;
+
+public class Starter {
+
+	public static void main(String[] args) {
+
+      int arr[] = new int[5];
+      
+      arr[4] = 10;
+      arr[2] = 4;
+      
+      int a = arr[4] + arr[2];
+      
+      System.out.println(a);
+
+	
+	arr[0]= 4;
+	arr[2] = 8;
+	System.out.println(arr[0] + " " + arr[2]);
+	
+	}
+
+}

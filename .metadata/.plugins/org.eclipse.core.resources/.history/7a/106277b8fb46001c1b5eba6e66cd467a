@@ -1,0 +1,16 @@
+package OperatorsandforLoops;
+
+public class IncreamentDecreament {
+
+	public static void main(String[] args) {
+		
+		int a =40;
+		int b=60;
+		a=b;
+		
+		System.out.println( ++b);
+		
+
+	}
+
+}

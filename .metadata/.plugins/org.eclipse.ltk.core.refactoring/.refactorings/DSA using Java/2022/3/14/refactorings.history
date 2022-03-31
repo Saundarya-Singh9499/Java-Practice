@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;LinkedList2.MergeSortLinkedList.java&apos; to &apos;MergeSortUsingLinkedList.java&apos;&#x0D;&#x0A;- Original project: &apos;DSA using Java&apos;&#x0D;&#x0A;- Original element: &apos;LinkedList2.MergeSortLinkedList.java&apos;&#x0D;&#x0A;- Renamed element: &apos;LinkedList2.MergeSortUsingLinkedList.java&apos;" description="Rename compilation unit &apos;MergeSortLinkedList.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;LinkedList2{MergeSortLinkedList.java" name="MergeSortUsingLinkedList.java" references="false" stamp="1648641921763" version="1.0"/>
+</session>

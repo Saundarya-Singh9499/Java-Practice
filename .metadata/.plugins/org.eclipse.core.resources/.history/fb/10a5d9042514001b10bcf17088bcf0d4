@@ -1,0 +1,93 @@
+import java.util.Scanner;
+
+public class wending{
+
+	int cost;
+	public static void main(String[] args) {
+		
+		
+		wending Kurkure=new wending();
+		wending Chips=new wending();
+		wending Cadbury=new wending();
+		wending Pepsi=new wending();
+		
+		
+		Kurkure.cost=10;
+		Chips.cost=15;
+		Cadbury.cost=5;
+		Pepsi.cost=40;
+		
+		
+		
+		
+		Scanner a=new Scanner(System.in);
+		
+		System.out.println("Hi User, Availaible products are Kurkure ,  Chips , Cadbury and Pepsi ");
+		System.out.println("Select any one product you want = ");
+		String s=a.next();
+		
+		switch(s) {
+		case "Kurkure":
+			System.out.println("Cost is = Rs " + Kurkure.cost  );
+		   break;
+		
+		case "Chips":
+			System.out.println("Cost is = Rs" + Chips.cost);
+			break;
+		
+		case "Cadbury":
+			System.out.println("Cost is = Rs" + Cadbury.cost );
+			break;
+			
+		case "Pepsi":
+			System.out.println("Cost is = Rs" + Pepsi.cost);
+		
+		
+		}
+		
+			System.out.println("Please pay for the product");
+			System.out.println("Paying Rs = ");
+			int q=a.nextInt();
+	
+			if (s=="Cadbury") {
+		
+		System.out.println(" Congrats You got a Cadubury");
+	}
+	else {
+		System.out.println("Return = ");
+		System.out.println( q-Cadbury.cost);
+        System.out.println("Congrats you got a cadbury");	
+	}
+	
+			
+			if (s=="Kurkure") {
+				
+				System.out.println(" Congrats You got a Kurkure");
+			}
+			else {
+				System.out.println("Return = ");
+				System.out.println( q-Kurkure.cost);
+		        System.out.println("Congrats you got a cadbury");	
+			}
+	
+	
+	
+	}
+	
+}
+
+
+		
+		
+	
+		
+		
+
+
+
+	
+
+
+
+	
+
