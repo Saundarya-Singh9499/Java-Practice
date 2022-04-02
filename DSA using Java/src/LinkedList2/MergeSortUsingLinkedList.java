@@ -25,7 +25,8 @@ public class MergeSortUsingLinkedList {
 	    	else {
 	    		
 	    		  tail.next = contain;
-	    		  tail = tail.next;
+	    		  
+	    	      tail = tail.next;
 	    	}   
 	           n = sc.nextInt();
 	    }
