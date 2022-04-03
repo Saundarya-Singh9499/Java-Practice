@@ -1,0 +1,17 @@
+package Stacks;
+
+public class StackLinkedListUse {
+
+	public static void main(String[] args) throws StackEmptyException {
+		
+    StackUsingLinkedList<Integer> stack = new StackUsingLinkedList<>();
+    
+   
+   
+    System.out.println(stack.size());
+    System.out.println(stack.top());
+    System.out.println(stack.isEmpty());
+	
+	}
+
+}

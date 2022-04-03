@@ -1,0 +1,16 @@
+package Stacks;
+
+public class StackLinkedListUse {
+
+	public static void main(String[] args) {
+		
+    StackUsingLinkedList<Integer> stack = new StackUsingLinkedList<>();
+    
+    stack.push(10);
+    stack.push(20);
+    
+    System.out.println(stack.size());
+	
+	}
+
+}

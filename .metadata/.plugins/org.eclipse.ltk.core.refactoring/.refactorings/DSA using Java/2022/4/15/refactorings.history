@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Stacks.StackUse&apos; to &apos;StackArrayUse&apos;&#x0D;&#x0A;- Original project: &apos;DSA using Java&apos;&#x0D;&#x0A;- Original element: &apos;Stacks.StackUse&apos;&#x0D;&#x0A;- Renamed element: &apos;Stacks.StackArrayUse&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StackUse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Stacks{StackUse.java[StackUse" matchStrategy="1" name="StackArrayUse" qualified="false" references="true" similarDeclarations="false" stamp="1649006586899" textual="false" version="1.0"/>
+</session>
