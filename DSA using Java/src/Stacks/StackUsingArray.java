@@ -1,4 +1,4 @@
-package Stacks;
+package Stacks;              
 
 public class StackUsingArray {
 	
@@ -6,6 +6,7 @@ public class StackUsingArray {
 	private int topIndex;
 
 	public StackUsingArray() {
+		
 		
 		data = new int[10];
 		topIndex = -1;
@@ -22,6 +23,7 @@ public class StackUsingArray {
     	topIndex+= 1;
     	
     	data[topIndex] = elem;
+    	
     	
     }
      

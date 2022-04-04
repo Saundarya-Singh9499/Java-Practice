@@ -1,0 +1,46 @@
+package Stacks;
+
+import java.util.Scanner;
+
+public class ReverseStack {
+
+	public static int[] input() {
+		
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int arr[] = new int[n];
+		for(int i = 0 ; i < n ; i++) {
+			
+			System.out.println("Enter the " + i + " th Element");
+			arr[i] = sc.nextInt();
+		}
+	           return arr;	
+	
+	}
+	
+    public static void reverseStack( int arr[] ) throws StackEmptyException{
+    	
+    StackUsingLinkedList<Integer> stack = new StackUsingLinkedList<>();
+    
+    for(int elem : arr) {
+    	
+    	stack.push(elem);
+    }
+    
+      reverseStack(arr);
+      
+      while(!stack.isEmpty()) {
+    	  
+    	  System.out.println(stack.pop());
+      }
+    }
+	
+	public static void main(String[] args) {
+		
+    int arr[] = input();
+    
+    reverseStack(arr);
+	
+	}
+
+}
