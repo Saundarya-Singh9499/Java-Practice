@@ -1,0 +1,16 @@
+package Stacks;
+
+public class ReverseQueue extends ArraytakeInput {
+
+	public int reverseQueue( int arr[] ) {
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+     int arr[]
+	 
+	}
+
+}

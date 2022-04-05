@@ -1,0 +1,18 @@
+package Stacks;
+
+import Queues.ArrayTakeInput;
+
+public class ReverseQueue extends ArrayTakeInput {
+
+	public int reverseQueue( int arr[] ) {
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+     int arr[]
+	 
+	}
+
+}

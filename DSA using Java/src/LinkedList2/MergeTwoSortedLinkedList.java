@@ -3,8 +3,9 @@ package LinkedList2;
 import java.util.Scanner;
 
 import LinkedList1.Node;
+import TakeInputandPrint.LinkedListTakeInputandPrint;
 
-public class MergeTwoSortedLinkedList {
+public class MergeTwoSortedLinkedList<T> extends LinkedListTakeInputandPrint<T> {
 
 	public static Node<Integer> input(){
 		
@@ -81,17 +82,12 @@ public class MergeTwoSortedLinkedList {
 	
 	public static void main(String[] args) {
 		
-	Node<Integer> t1 = input();
-	Node<Integer> t2 = input();
+	Node<Integer> t1 = takeInput();
+	Node<Integer> t2 = takeInput();
 	
 	Node<Integer> result = mergeTheLinkedList(t1, t2);
 	
-	while( result != null ) {
-		
-		System.out.print(result.data + " ");
-	
-	    result = result.next;
-	}
+    print(result);
 	
 	
 	}
