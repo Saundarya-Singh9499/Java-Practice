@@ -1,0 +1,10 @@
+package Queues;
+
+public class QueuesLinkedListUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
