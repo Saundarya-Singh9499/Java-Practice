@@ -25,7 +25,9 @@ public class ShoesPairCodeChef {
 	
 	      if( friends < shoes ) {
 	    	  
-	    	System.out.println(friends);
+	    	int temp = shoes - friends; 
+	    	
+	    	 System.out.println(temp);
 	      
 	      }
 	
