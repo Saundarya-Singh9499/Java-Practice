@@ -3,7 +3,7 @@ package Queues;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import TakeInputandPrint.ArrayTakeInput;
+import TakeInputandPrint2.ArrayTakeInput;
 
 public class ReverseQueue extends ArrayTakeInput {
 

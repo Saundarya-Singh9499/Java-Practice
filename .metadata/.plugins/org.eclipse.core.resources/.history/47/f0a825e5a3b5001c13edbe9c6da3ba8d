@@ -1,0 +1,43 @@
+package JavaPractice2;
+
+import java.util.Scanner;
+
+public class ShoesPairCodeChef {
+
+	public static int input() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		return n;
+	}
+	
+	public static void shoesPair( int friends , int shoes ) {
+		
+		
+		if( friends >= shoes ) {
+	    	
+	        return 0;
+	    }
+	
+	      if( friends < shoes ) {
+	    	  
+	    	int temp = shoes - friends; 
+	    	
+	    	 System.out.println(temp);
+	      
+	      }
+	
+	   return shoes - store
+	}
+	
+	public static void main(String[] args) {
+		
+    int friends = input();
+    
+    int shoes  = input();
+	
+	}
+
+}

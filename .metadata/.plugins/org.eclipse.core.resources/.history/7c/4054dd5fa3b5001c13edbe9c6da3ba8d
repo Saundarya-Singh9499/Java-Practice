@@ -1,0 +1,23 @@
+package JavaPractice2;
+
+import java.util.Scanner;
+
+public class ShoesPairCodeChef {
+
+	public static int input() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		return n;
+	}
+	
+	public static int shoesPair
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

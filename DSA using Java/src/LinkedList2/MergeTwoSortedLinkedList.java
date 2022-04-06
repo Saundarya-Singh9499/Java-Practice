@@ -3,7 +3,7 @@ package LinkedList2;
 import java.util.Scanner;
 
 import LinkedList1.Node;
-import TakeInputandPrint.LinkedListTakeInputandPrint;
+import TakeInputandPrint2.LinkedListTakeInputandPrint;
 
 public class MergeTwoSortedLinkedList<T> extends LinkedListTakeInputandPrint<T> {
 
