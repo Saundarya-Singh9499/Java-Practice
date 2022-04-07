@@ -1,0 +1,28 @@
+package BinaryTrees1;
+
+public class extendBinaryTreeNodes {
+
+	public static void main(String[] args) {
+		
+	  BinaryTreeNode<Integer> root = new BinaryTreeNode<>(1);
+	  
+	  BinaryTreeNode<Integer> rootLeft = new BinaryTreeNode<>(2);
+	  
+	  BinaryTreeNode<Integer> rootRight = new BinaryTreeNode<>(4);
+	  
+	  root.left = rootLeft;
+	  
+	  root.right = rootRight;
+	  
+	  BinaryTreeNode<Integer> node4 = new BinaryTreeNode<>(8);
+	  
+	  BinaryTreeNode<Integer> node5 = new BinaryTreeNode<>(9);
+	  
+	  BinaryTreeNode<Integer> node6 = new BinaryTreeNode<>(12);
+	  
+	  BinaryTreeNode<Integer> node7 = new BinaryTreeNode<>(18);
+
+	  BinaryTreeNode<Integer> node 8 = new BinaryTreeNode<>(20);
+	}
+
+}

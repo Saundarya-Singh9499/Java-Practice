@@ -1,0 +1,54 @@
+package BinaryTrees1;
+
+import java.util.Scanner;
+
+public class TakeInputBetterBinaryTree {
+
+public static BinaryTreeNode<Integer> takeInputBetter(boolean isRoot , int parentData , boolean isLeft){
+		
+	if( isRoot ) {
+		
+		System.out.println("Enter the Root Data");
+	}
+	
+	 else if( isLeft ) {
+		 
+		 System.out.println("Enter the Left Child of " + parentData);
+	 }
+  
+	 else {
+		 
+		 System.out.println("Enter the Right Data of " + parentData);
+	 }
+
+        Scanner sc = new Scanner(System.in);
+        
+        int rootData = sc.nextInt();
+        
+        if( rootData == -1) {
+        	
+        	return null;
+        }
+
+      BinaryTreeNode<Integer> root = new BinaryTreeNode<>(rootData);
+      
+      BinaryTreeNode<Integer> leftChild = takeInputBetter();
+      
+      BinaryTreeNode<Integer> rightChild = takeInputBetter();
+      
+      root.left = leftChild;
+      
+      root.right = rightChild;
+    
+}
+
+
+
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

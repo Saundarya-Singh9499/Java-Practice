@@ -1,0 +1,43 @@
+package BinaryTrees1;
+
+public class printDetailedBinaryTreeNodes {
+
+	public static void printDetailedTree( BinaryTreeNode<Integer> root ) {
+		
+		if(root == null) {
+			
+			return;
+		}
+	
+	       System.out.println(root.data);
+	       
+	       printDetailedTree(root.left);
+	       printDetailedTree(root.right);
+	
+	
+	
+	}
+	
+	public static void main(String[] args) {
+		
+    BinaryTreeNode<Integer> root = new BinaryTreeNode<>(1);
+    
+    BinaryTreeNode<Integer> rootLeft = new BinaryTreeNode<>(2);
+    
+    BinaryTreeNode<Integer> rootRight = new BinaryTreeNode<>(3);
+    
+       root.left = rootLeft;
+       root.right = rootRight;
+	
+	BinaryTreeNode<Integer> rightL = new BinaryTreeNode<>(4);
+    
+	BinaryTreeNode<Integer> leftR = new BinaryTreeNode<>(5);
+	
+	rootLeft.right = rightL;
+	
+	rootRight.left = leftR;
+	
+	
+	}
+
+}

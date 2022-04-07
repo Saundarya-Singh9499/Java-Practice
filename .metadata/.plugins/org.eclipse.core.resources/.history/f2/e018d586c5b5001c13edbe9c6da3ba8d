@@ -1,0 +1,23 @@
+package JavaPractice2;
+
+import java.util.Scanner;
+
+public class TheCheaperCabCodeChef {
+
+    public static int cheaperCab( int X , int Y ) {
+    	
+    	
+    }
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int X = sc.nextInt();
+		
+		int Y = sc.nextInt();
+
+	    cheaperCab(X, Y);
+	}
+
+}

@@ -1,0 +1,23 @@
+package BinaryTrees1;
+
+public class TakeInputBetterBinaryTree {
+
+public static BinaryTreeNode<Integer> takeInputBetter(boolean isRoot , parentData , boolean isLeft){
+		
+	if( isRoot ) {
+		
+		System.out.println("Enter the Root Data");
+	}
+	
+  }
+
+
+
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package BinaryTrees1;
+
+import java.util.Scanner;
+
+public class TakeInputBinaryTree {
+
+	public static BinaryTreeNode<Integer> takeInput(){
+		
+		System.out.println("Enter the root Data");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int rootData = sc.nextInt();
+		
+		BinaryTreeNode<Integer> root = new BinaryTreeNode<>(rootData);
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
