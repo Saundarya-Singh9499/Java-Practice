@@ -1,0 +1,23 @@
+package BinaryTrees1;
+
+public class NodeWithoutSibling {
+
+public static BinaryTreeNide<Integer> takeInput(boolean isRoot , int parentData , boolean isLeft){
+    	
+         if(isRoot) {
+        	 
+        	 System.out.println("Enter the Root Data");
+         }
+    
+         else if(isLeft) {
+        	 
+        	 System.out.println("Enter the Left Child of " + parentData);
+         }
+  }
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

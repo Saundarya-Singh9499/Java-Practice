@@ -2,11 +2,11 @@ package BinaryTrees1;
 
 public class BinaryTreeNode<T> {
 	
-	T data;
+	public T data;
 	
-	BinaryTreeNode<T> left;
+	public BinaryTreeNode<T> left;
 	
-	BinaryTreeNode<T> right;
+	public BinaryTreeNode<T> right;
 
 
     public BinaryTreeNode( T data ) {
