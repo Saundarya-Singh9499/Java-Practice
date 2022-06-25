@@ -53,6 +53,7 @@ public static BinaryTreeNode<Integer> takeInput(boolean isRoot , int parentData 
 	
 	        if( K == 0 ) {
 	        	
+	        	
 	        	System.out.println( root.data );
 	        
 	            return;

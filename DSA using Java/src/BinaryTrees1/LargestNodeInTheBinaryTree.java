@@ -54,7 +54,9 @@ public static BinaryTreeNode<Integer> takeInput(boolean isRoot , int parentData 
            int leftNode = largestNode(root.left);
            int rightNode = largestNode(root.right);
            
-            return Math.max(root.data, Math.max(leftNode , rightNode));      
+        return Math.max(root.data, Math.max(leftNode , rightNode));
+        
+        
     }
     
     public static void main(String[] args) {
