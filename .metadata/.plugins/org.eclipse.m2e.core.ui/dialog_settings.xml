@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\hp\eclipse-workspace\Java DSA Practice\src\Array\NextPermutation.java"/>
 			<item value="C:\Users\hp\eclipse-workspace\SpringBoot-API"/>
 			<item value="C:\Users\hp\eclipse-workspace\DSA using Java"/>
 		</list>
@@ -49,18 +50,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="SpringBoot-Eclipse"/>
-			<item value="SpringBoot-Eclipse "/>
-			<item value="SpringBoot"/>
 		</list>
 		<list key="name">
-			<item value="SpringBoot"/>
-			<item value="SpringBoot API"/>
 		</list>
 		<list key="artifactId">
-			<item value="SpringBoot-API1"/>
-			<item value="SpringBoot-API"/>
-			<item value="Course-API"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

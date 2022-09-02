@@ -14,6 +14,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\SpringBoot Projects\assets-management"/>
+			<item value="C:\Users\hp\Downloads\demo-api"/>
+			<item value="E:\SpringBoot Projects\api-calling"/>
 			<item value="C:\Users\hp\Downloads\login-token"/>
 			<item value="C:\Users\hp\Downloads\login.token"/>
 			<item value="C:\Users\hp\Downloads\Login-token-springboot"/>

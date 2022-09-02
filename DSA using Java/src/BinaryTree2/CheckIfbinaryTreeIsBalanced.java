@@ -53,6 +53,7 @@ public static BinaryTreeNode<Integer> takeInput(boolean isRoot , int parentData 
 	    	return 0;
 	    }
    
+	       
            int leftChild = hieght(root.left);
            
            int rightChild = hieght(root.right);

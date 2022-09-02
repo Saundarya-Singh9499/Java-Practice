@@ -56,7 +56,7 @@ public static BinaryTreeNode<Integer> takeInput(boolean isRoot , int parentData 
 	        
 	        if( leftTreeHeight == rightTreeHeight) {
 	        	
-	        	 return 1 + rightTreeHeight;
+	               return 1 + rightTreeHeight;
 	        }
 	        
 	        else if( leftTreeHeight > rightTreeHeight) {
